@@ -1,23 +1,26 @@
 @extends('layouts.app')
 
-@section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+@section('meta')
+    <meta name="description"
+          content="Web site goldenstore.com: Сухо строителство, строителство на къщи,строителство на басейни,
+          строителство на спа центрове, ремонтни дейности, постаяне на облицовки от естествен и технически камък,
+          поставяне на подови настилки, редене на мозайки, плочки,камини, подови настилки ">
 @endsection
+
+@section('title','Начало')
+
+@section('nav')
+    @include('partials.main-nav')
+@endsection
+
+@section('content')
+    @if(Auth::user()->userType==='admin')
+        {{--<h1 class="text-dark" >Admin</h1>--}}
+    @elseif(session('status'))
+        <div class="alert alert-danger" role="alert">
+            {{ session('status') }}
+        </div>
+    @endif
+
+@endsection
+

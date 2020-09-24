@@ -1,5 +1,150 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page-link.focus,
+.page-link.focus:active,
+.page-link:active:focus,
+.page-link:focus,
+.page-link.active.focus,
+.page-link.active:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+.navbar button:focus {
+  outline: none;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+.btn,
+.btn-menu {
+  color: #EBF8FF !important;
+}
+
+.navbar a:hover {
+  color: #BEE3F8 !important;
+}
+
+.main-nav,
+.footer-color,
+.navbar-toggler {
+  background: #2A4365 !important;
+}
+
+.main-button {
+  background-color: #2B6CB0 !important;
+}
+
+.btn-link {
+  color: #2B6CB0 !important;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.navbar {
+  position: fixed;
+  display: -webkit-box;
+  display: flex;
+  top: 0;
+  z-index: 6;
+  width: 100%;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.dropdown-menu.show {
+  display: block;
+  background: #2B6CB0;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #16181b;
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+/* background-color: #f8f9fa;
+    button:active:focus,
+    button:focus {
+        outline: 0 !important;
+        outline-offset: 0 !important;
+
+    }
+
+    /*Dropdown btn*/
+
+.btn-group > .btn,
+.btn-group-vertical > .btn {
+  position: fixed !important;
+  z-index: 2 !important;
+  top: 50% !important;
+  right: 0 !important;
+  -webkit-box-flex: 1 !important;
+          flex: 1 1 auto !important;
+}
+
+/*.Dropdown btn*/
+
+#top {
+  position: fixed;
+  bottom: 3.25em;
+  right: 5.25em;
+  z-index: 6;
+  overflow: visible;
+}
+
+#top .fa-chevron-circle-up {
+  color: #888888;
+  margin: 0;
+  position: relative;
+  left: 1em;
+  top: 0.8em;
+  font-size: 2.25em;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors

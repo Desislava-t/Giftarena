@@ -1,0 +1,59 @@
+html, body {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page-link.focus,
+.page-link.focus:active,
+.page-link:active:focus,
+.page-link:focus,
+.page-link.active.focus,
+.page-link.active:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  background-image: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.navbar button:focus {
+  outline: none;
+}
+
+a, p, h1, h2, h3,
+h4, h5, .btn, .btn-menu {
+  color: $elementsColor !important;
+}
+
+.navbar a:hover {
+  color: $hoverEffect !important;
+}
+
+//main nav and footer colors
+.main-nav,
+.footer-color,
+.navbar-toggler {
+  background: $navAndFooter !important;
+
+}
+
+.main-button {
+  background-color: $button-color !important;
+}
+
+//.main nav and footer colors
+
+//login form forgot password
+.btn-link {
+  color: $button-color !important;
+}
+//.login form forgot password
