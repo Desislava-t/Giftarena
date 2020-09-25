@@ -1,10 +1,10 @@
 @extends('layouts.master')
 
 @section('meta-admin')
-    <meta name="description" content="Web site goldenstore.com add post to home page">
+    <meta name="description" content="Web site giftarena.com add post to home page">
 @endsection
 
-@section('title-admin','Admin Gabriel')
+@section('title-admin','Admin create post')
 
 @section('content-admin')
     <admin-nav-component></admin-nav-component>

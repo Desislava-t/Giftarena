@@ -13,13 +13,13 @@ class PostToHomePageSeeder extends Seeder
     public function run()
     {
         PostToHomePage::create([
-            'title' => 'GoldenstroyMB продава апартаменти',
+            'title' => 'Giftarena продава апартаменти',
             'content' => 'Lorem ipsum dolor sit amet, 
             consectetur adipisicing elit.'
         ]);
 
         PostToHomePage::create([
-            'title' => 'Нов офис на GoldenstroyMB',
+            'title' => 'Нов офис на Giftarena',
             'content' => 'Заповядайте на откриването ще бъде на 24.10.2020г в град Варна'
         ]);
     }

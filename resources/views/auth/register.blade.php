@@ -2,7 +2,7 @@
 
 @section('meta')
     <meta name="description"
-          content="Register into Web site goldenstore.com: Сухо строителство, строителство на къщи,строителство на басейни,
+          content="Register into Web site giftarena.com: Сухо строителство, строителство на къщи,строителство на басейни,
           строителство на спа центрове, ремонтни дейности, постаяне на облицовки от естествен и технически камък,
           поставяне на подови настилки, редене на мозайки, плочки,камини, подови настилки ">
 @endsection
@@ -15,5 +15,6 @@
 
 @section('content')
     @include('auth.partials.register')
+    <footer-component></footer-component>
 @endsection
 

@@ -6,13 +6,13 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     @section('meta')
-        <meta name="description" content="Web site goldenstore.com admin panel">
+        <meta name="description" content="Web site giftarena.com admin panel">
     @show
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="author" content="Desislava Georgieva, email : desislava.georgieva001@gmail.com, phone: 0897 722 275 ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-    <title>{{ config('app.name', 'GoldenstroyMB') }} | @yield('title-admin')</title>
+    <title>{{ config('app.name', 'Giftarena') }} | @yield('title-admin')</title>
 
     <!-- Scripts -->
 

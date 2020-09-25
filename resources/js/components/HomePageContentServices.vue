@@ -1,6 +1,8 @@
 <template>
     <div class="container">
-        <h3 class="text-dark text-uppercase text-center border-bottom p-3">Проектиране, строителство и ремонт</h3>
+        <h3 class="text-dark text-uppercase text-center border-bottom p-3">
+            Проектиране, строителство и ремонт
+        </h3>
         <!--row-->
         <div class="row">
             <!--col-->
@@ -9,7 +11,9 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="box">
-                            <p class="card-title pt-3 text-uppercase">Строителсво на сгради</p>
+                            <p class="card-title pt-3 text-uppercase">
+                                Строителсво на сгради
+                            </p>
                             <div class="icon">
                                 <i class="fas fa-home ion"></i>
                             </div>
@@ -37,7 +41,9 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="box">
-                            <p class="card-title pt-3 text-uppercase">Ремонти</p>
+                            <p class="card-title pt-3 text-uppercase">
+                                Ремонти
+                            </p>
                             <div class="icon">
                                 <i class="fas fa-paint-roller ion"></i>
                             </div>
@@ -50,7 +56,9 @@
 
                             <div class="box-footer p-2">
                                 <i class="fas fa-arrow-circle-right ion"></i>
-                                <a href="#" aria-label="read more">Прочети повече</a>
+                                <a href="#" aria-label="read more">
+                                    Прочети повече
+                                </a>
                             </div>
 
                         </div>
@@ -66,7 +74,9 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="box">
-                            <p class="card-title pt-3 text-uppercase">Реализирани проекти</p>
+                            <p class="card-title pt-3 text-uppercase">
+                                Реализирани проекти
+                            </p>
                             <div class="icon">
                                 <i class="fas fa-project-diagram ion"></i>
                             </div>
@@ -76,7 +86,9 @@
                             </p>
                             <div class="box-footer p-2">
                                 <i class="fas fa-arrow-circle-right ion"></i>
-                                <a href="#" aria-label="read more">Прочети повече</a>
+                                <a href="#" aria-label="read more">
+                                    Прочети повече
+                                </a>
                             </div>
 
                         </div>
@@ -92,7 +104,9 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="box">
-                            <p class="card-title pt-3 text-uppercase">Проектиране и инженеринг</p>
+                            <p class="card-title pt-3 text-uppercase">
+                                Проектиране и инженеринг
+                            </p>
                             <div class="icon">
                                 <i class="fas fa-city ion"></i>
                             </div>
@@ -102,7 +116,9 @@
                             </p>
                             <div class="box-footer p-2">
                                 <i class="fas fa-arrow-circle-right ion"></i>
-                                <a href="#" class="" aria-label="read more">Прочети повече</a>
+                                <a href="#" class="" aria-label="read more">
+                                    Прочети повече
+                                </a>
                             </div>
 
                         </div>
@@ -138,7 +154,7 @@
         padding: 0 !important;
     }
 
-    .card-title{
+    .card-title {
         font-size: 20px;
     }
 
@@ -164,12 +180,14 @@
         -webkit-transition: 0.3s;
         transition: 0.3s;
     }
-    .ion{
-        color:#ffffff;
+
+    .ion {
+        color: #ffffff;
     }
-    .box{
+
+    .box {
         background-color: #333366;
-        border-radius:10px;
+        border-radius: 10px;
     }
 
     @media only screen and (max-width: 600px) {

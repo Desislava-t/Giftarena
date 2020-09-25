@@ -24,7 +24,7 @@ Route::get('/', 'HomePageController@index')->name('index');
 /** admin routing*/
 
 Route::group(['middleware' => ['auth', 'admin']], function () {
-    Route::get('/admin-goldenstroy', function () {
+    Route::get('/admin-giftarena', function () {
         return view('admin.dashboard');
     });
 

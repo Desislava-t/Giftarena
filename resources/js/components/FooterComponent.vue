@@ -11,7 +11,7 @@
                 <div class="col-md-3">
 
                     <!-- Content -->
-                    <p class="fonts font-weight-bold mt-3 mb-4">GoldenstroyMB</p>
+                    <p class="fonts font-weight-bold mt-3 mb-4">Giftarena</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, voluptate, voluptatum. Amet
                         debitis
                         expedita natus possimus quidem recusandae, sunt temporibus.
@@ -49,7 +49,8 @@
                         <li>
                             <a class="text-white text-decoration-none" href="#" aria-label="idea of ​​home"
                                accesskey="h">
-                                Идеи за дома</a>
+                                Идеи за дома
+                            </a>
                         </li>
                         <li>
                             <a class="text-white text-decoration-none" href="#" aria-label="link Privacy Policy"
@@ -108,7 +109,7 @@
                             <a class="text-white text-decoration-none" href="#"
                                aria-label="contact us with mail address" accesskey="e">
                                 <i class="far fa-envelope-open mr-1 pr-1"></i>
-                               mail@gmail.com
+                                mail@gmail.com
                             </a>
                         </li>
                     </ul>
@@ -197,14 +198,19 @@
         <hr class="clearfix w-100 d-md-none">
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© Copyright: GoldenstroyMB
-            <a class="text-white text-decoration-none" href="#" aria-label="Сухо строителство" accesskey="строителство">Сухо
-                строителство,</a>
-            <a class="text-white text-decoration-none" href="#" aria-label="цялостно строителство">цялостно
-                строителство</a>
-            <a class="text-white text-decoration-none" href="#" aria-label="строителство на спа центрове">строителство
-                на спа центрове,</a>
-            <a class="text-white text-decoration-none" href="#" aria-label="басейни">басейни</a>
+        <div class="footer-copyright text-center py-3">© Copyright: Giftarena
+            <a class="text-white text-decoration-none" href="#" aria-label="Сухо строителство" accesskey="строителство">
+                Сухо строителство,
+            </a>
+            <a class="text-white text-decoration-none" href="#" aria-label="цялостно строителство">
+                цялостно строителство,
+            </a>
+            <a class="text-white text-decoration-none" href="#" aria-label="строителство на спа центрове">
+                строителство на спа центрове,
+            </a>
+            <a class="text-white text-decoration-none" href="#" aria-label="басейни">
+                басейни
+            </a>
 
 
         </div>
@@ -261,7 +267,8 @@
         color: #EBF8FF;
         opacity: 0.8;
     }
-    .fonts{
+
+    .fonts {
         font-size: 20px;
     }
 

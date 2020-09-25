@@ -31,7 +31,7 @@ class LoginController extends Controller
     protected function redirectTo()
     {
         if (Auth::user()->userType == 'admin') {
-            return 'admin-goldenstroy';
+            return 'admin-giftarena';
         } else {
             return 'home';
         }

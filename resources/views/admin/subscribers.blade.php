@@ -1,10 +1,10 @@
 @extends('layouts.master')
 
 @section('meta-admin')
-    <meta name="description" content="Web site goldenstore.com admin panel subscribers users">
+    <meta name="description" content="Web site giftarena.com admin panel subscribers users">
 @endsection
 
-@section('title-admin','Admin Gabriel update users information')
+@section('title-admin','Admin update users information')
 
 @section('content-admin')
     <admin-nav-component></admin-nav-component>

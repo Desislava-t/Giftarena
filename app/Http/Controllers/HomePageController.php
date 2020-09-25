@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use http\Exception\InvalidArgumentException;
+use Illuminate\Support\Facades\DB;
 
 class HomePageController extends Controller
 {
@@ -13,6 +15,14 @@ class HomePageController extends Controller
      */
     public function index()
     {
+        try {
+            DB::connection()->getPdo();
+            if (DB::connection()->getDatabaseName()) {
+
+            }
+        } catch (\Exception $e) {
+            die("Could not connect to the database. Please check your configuration. error:" . $e );
+        }
         return view('index');
     }
 

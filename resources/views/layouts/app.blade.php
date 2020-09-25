@@ -6,8 +6,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     @section('meta')
-        <meta name="description" content="Web site Giftarena.eu:
-        Здравословен начин на живот, здравословно готвене, здравословно хранене, рецепти, домакински уреди">
+        <meta name="description" content="Web site giftarena.com: Сухо строителство, строителство на къщи,строителство на басейни,
+          строителство на спа центрове, ремонтни дейности, постаяне на облицовки от естествен и технически камък,
+          поставяне на подови настилки, редене на мозайки, плочки,камини, подови настилки">
     @show
 
     {{--Meta author--}}
@@ -23,15 +24,20 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    {{--<link rel="dns-prefetch" href="//fonts.gstatic.com">--}}
+    {{--<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">--}}
 
-    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+<!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
 
     {{--preload--}}
     <link rel="preload" href="css/app.css" as="style">
     <link rel="preload" href="js/app.js" as="script">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" as="style">
+
     {{--./preload--}}
 </head>
 <body>

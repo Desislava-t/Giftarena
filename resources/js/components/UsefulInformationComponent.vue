@@ -3,10 +3,12 @@
 
         <div class="card-group">
             <div class="card mr-4">
-                <img class="card-img-top" src="images/usefulInfo/1.jpg" alt="Card image cap">
+                <img class="card-img-top" src="images/usefulInfo/1.webp" alt="Card image cap">
                 <div class="card-body">
                     <a href="#" class="text-decoration-none" aria-label="site for construction repairs">
-                        <p class="card-title text-dark">Сайт за строителни ремонти</p>
+                        <p class="card-title text-dark">
+                            Сайт за строителни ремонти
+                        </p>
                     </a>
 
                     <p class="card-text text-dark">
@@ -23,9 +25,11 @@
                 </div>
             </div>
             <div class="card mr-4">
-                <img class="card-img-top" src="images/usefulInfo/2.jpg" alt="Card image cap">
+                <img class="card-img-top" src="images/usefulInfo/2.webp" alt="Card image cap">
                 <div class="card-body">
-                    <p class="card-title text-dark">Строителство Бриз</p>
+                    <p class="card-title text-dark">
+                        Строителство Бриз
+                    </p>
                     <p class="card-text text-dark">
                         На конкурентния пазар за строителство във Бриз участват множество Строителни фирми във Варна.
                         Все
@@ -42,9 +46,11 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="images/usefulInfo/3.jpg" alt="Card image cap">
+                <img class="card-img-top" src="images/usefulInfo/3.webp" alt="Card image cap">
                 <div class="card-body">
-                    <p class="card-title text-dark">Строителсво до ключ цена</p>
+                    <p class="card-title text-dark">
+                        Строителсво до ключ цена
+                    </p>
                     <p class="card-text text-dark">
                         Характерното при цената за строителство до ключ е, че например от
                         строителството груб строеж до строителството до ключ тя може да скочи три пъти за кв...

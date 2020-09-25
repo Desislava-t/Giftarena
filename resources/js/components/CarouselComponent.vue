@@ -13,23 +13,28 @@
         <div class="carousel-inner">
             <!--Carousel image-->
             <div class="carousel-item active">
-                <a class="swiper-textOffer" href="#" aria-label="Design and construction of swimming pools">Проектиране
-                    и изграждане на басейни</a>
-                <img class="swiperImg d-block w-100" src="images/carousel/2.jpg" alt="swimming pool">
+                <a class="swiper-textOffer" href="#" aria-label="Design and construction of swimming pools">
+                    Проектиране и изграждане на басейни
+                </a>
+                <img class="swiperImg d-block w-100" src="images/carousel/2.webp" alt="swimming pool">
             </div>
             <!--./Carousel image-->
 
             <!--Carousel image-->
             <div class="carousel-item">
-                <a class="swiper-textOffer" href="#" aria-label="construction of spa">Изграждане на спа</a>
-                <img class="swiperImg d-block w-100" src="images/carousel/1.jpg" alt="construction of spa">
+                <a class="swiper-textOffer" href="#" aria-label="construction of spa">
+                    Изграждане на спа
+                </a>
+                <img class="swiperImg d-block w-100" src="images/carousel/1.webp" alt="construction of spa">
             </div>
             <!--./Carousel image-->
 
             <!--Carousel image-->
             <div class="carousel-item">
-                <a class="swiper-textOffer" href="#" aria-label="Complete construction">Цялостно строителство</a>
-                <img class="swiperImg d-block w-100" src="images/carousel/4.jpg" alt="Complete construction">
+                <a class="swiper-textOffer" href="#" aria-label="Complete construction">
+                    Цялостно строителство
+                </a>
+                <img class="swiperImg d-block w-100" src="images/carousel/4.webp" alt="Complete construction">
             </div>
             <!--./Carousel image-->
         </div>

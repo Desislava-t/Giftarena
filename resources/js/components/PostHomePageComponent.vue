@@ -1,6 +1,8 @@
 <template>
     <div class="container">
-        <h3 class="text-dark text-uppercase text-center border-bottom pt-5">Новини</h3>
+        <h3 class="text-dark text-uppercase text-center border-bottom pt-5">
+            Новини
+        </h3>
 
         <div class="card-group">
             <div v-for="getPosts in getPost" class="card mr-4 box">

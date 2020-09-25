@@ -8,8 +8,8 @@
                 <!--{{ Auth::user()->name }}-->
             </a>
             <a href="./" class="nav-link" target="_blank" aria-label="goldenstroymb.com"
-               title="Отиди на goldenstroymb.com начална страница" rel="noopener">
-                GoldenstroyMB
+               title="Отиди на giftarena.com начална страница" rel="noopener">
+                Giftarena
             </a>
             <!--nav btn collapse-->
             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -27,7 +27,7 @@
                 <nav>
                     <ul class="list-group">
                         <li class="nav-item">
-                            <a href="./admin-goldenstroy" class="nav-link" aria-label="admin dashboard"
+                            <a href="./admin-giftarena" class="nav-link" aria-label="admin dashboard"
                                rel="noopener">
                                 <i class="fas fa-home pr-1"></i>
                                 Табло
@@ -108,7 +108,7 @@
                                aria-label="facebook page"
                                rel="noopener">
                                 <i class="fab fa-facebook-f pr-1"></i>
-                                @goldenstroymb
+                                @giftarena
                             </a>
                         </li>
 
