@@ -23,8 +23,13 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    {{--preload--}}
     <link rel="preload" href="css/app.css" as="style">
     <link rel="preload" href="js/app.js" as="script">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" as="style">
+    {{--./preload--}}
 
 </head>
 <body>

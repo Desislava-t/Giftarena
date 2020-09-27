@@ -3,7 +3,7 @@
 
         <div class="card-group">
             <div class="card mr-4">
-                <img class="card-img-top" src="images/usefulInfo/1.webp" alt="Card image cap">
+                <img class="card-img-top" src="images/usefulInfo/1-1.webp" alt="Card image cap">
                 <div class="card-body">
                     <a href="#" class="text-decoration-none" aria-label="site for construction repairs">
                         <p class="card-title text-dark">
@@ -20,12 +20,12 @@
                     <a href="#" aria-label="learn more"
                        class="text-decoration-none text-white border-bottom border-white">
                         Виж повече
-                        <i class="fas fa-angle-right text-whte"></i>
+                        <i class="fas fa-angle-right text-white"></i>
                     </a>
                 </div>
             </div>
             <div class="card mr-4">
-                <img class="card-img-top" src="images/usefulInfo/2.webp" alt="Card image cap">
+                <img class="card-img-top" src="images/usefulInfo/2-2.webp" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-title text-dark">
                         Строителство Бриз
@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="images/usefulInfo/3.webp" alt="Card image cap">
+                <img class="card-img-top" src="images/usefulInfo/3-3.webp" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-title text-dark">
                         Строителсво до ключ цена

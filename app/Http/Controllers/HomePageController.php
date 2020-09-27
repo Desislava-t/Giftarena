@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use http\Exception\InvalidArgumentException;
 use Illuminate\Support\Facades\DB;
 
 class HomePageController extends Controller
