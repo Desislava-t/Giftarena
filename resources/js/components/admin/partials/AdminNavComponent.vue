@@ -201,21 +201,7 @@
         display: block;
         background: #2B6CB0;
     }
-
-    .dropdown-item:hover, .dropdown-item:focus {
-        color: #16181b;
-        text-decoration: none;
-        background-color: transparent !important;
-    }
-
-    /* background-color: #f8f9fa;
-        button:active:focus,
-        button:focus {
-            outline: 0 !important;
-            outline-offset: 0 !important;
-
-        }
-
+    
         /*Dropdown btn*/
     .btn-group > .btn, .btn-group-vertical > .btn {
         position: fixed !important;

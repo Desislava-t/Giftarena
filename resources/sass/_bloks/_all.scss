@@ -58,3 +58,12 @@ h4, h5, .btn, .btn-menu {
 }
 
 //.login form forgot password
+.dropdown-menu {
+  background-color: $button-color !important;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #16181b;
+  text-decoration: none;
+  background-color: transparent !important;
+}
